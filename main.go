@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 func add(a, b int) int {
+	fmt.Println("rising cov")
+	fmt.Println("rising cov")
+	fmt.Println("rising cov")
+	fmt.Println("rising cov")
 	return a + b
 }
 
