@@ -1,0 +1,11 @@
+language: go
+os: linux
+go:
+- '1.13'
+jobs:
+  include:
+  - stage: test
+    os: linux
+    script:
+    - go test -cover
+
